@@ -28,9 +28,11 @@ const Hero = () => {
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto">
         <div className="mb-8 animate-fade-in">
           <div className="w-40 h-40 mx-auto mb-8 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 p-1">
-            <div className="w-full h-full rounded-full bg-slate-300 flex items-center justify-center text-6xl font-bold text-slate-800">
-              SA
-            </div>
+            <img 
+              src="https://i.postimg.cc/mgx3WMT7/Amula-Sharath-Kumar.jpg"
+              alt="Sharath Kumar Amula"
+              className="w-full h-full rounded-full object-cover"
+            />
           </div>
           
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold mb-6">
