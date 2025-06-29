@@ -7,7 +7,7 @@ const Publications = () => {
   const publications = [
     {
       title: "Neurovision – Deep Learning Approach for Brain Tumor Identification",
-      authors: ["Sharath Kumar Amula", "Abhignya", "Samhitha", "Hima Bindu"],
+      authors: ["Sharath Kumar Amula", "Abhignya Rani.J", "Macha Phani Samhitha", "J. Hima Bindu"],
       journal: "Asian Pacific Journal of Biological Sciences",
       volume: "Volume 6, Issue 9",
       year: "2024",
