@@ -1,3 +1,4 @@
+
 import { ExternalLink, FileText, Users, Calendar } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -12,7 +13,7 @@ const Publications = () => {
       year: "2024",
       pages: "2075-2084",
       doi: "10.33472/AFJBS.6.9.2024.2075-2084",
-      link: "https://doi.org/10.33472/AFJBS.6.9.2024.2075-2084",
+      link: "https://www.afjbs.com/issue-content/neurovision-deep-learning-approach-for-brain-tumor-identification-1185",
       abstract: "This research presents a comprehensive deep learning approach for automated brain tumor identification using MRI imaging data. The study implements and compares multiple convolutional neural network architectures to achieve high accuracy in medical diagnosis.",
       keywords: ["Deep Learning", "Brain Tumor Detection", "Medical Imaging", "CNN", "MRI Analysis"]
     }
