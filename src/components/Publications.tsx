@@ -1,4 +1,3 @@
-
 import { ExternalLink, FileText, Users, Calendar } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -13,7 +12,7 @@ const Publications = () => {
       year: "2024",
       pages: "2075-2084",
       doi: "10.33472/AFJBS.6.9.2024.2075-2084",
-      link: "#",
+      link: "https://doi.org/10.33472/AFJBS.6.9.2024.2075-2084",
       abstract: "This research presents a comprehensive deep learning approach for automated brain tumor identification using MRI imaging data. The study implements and compares multiple convolutional neural network architectures to achieve high accuracy in medical diagnosis.",
       keywords: ["Deep Learning", "Brain Tumor Detection", "Medical Imaging", "CNN", "MRI Analysis"]
     }
@@ -95,6 +94,7 @@ const Publications = () => {
                   <Button
                     variant="outline"
                     className="border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black"
+                    onClick={() => window.open(publication.link, '_blank')}
                   >
                     <ExternalLink size={16} className="mr-2" />
                     View Paper
