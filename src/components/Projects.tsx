@@ -1,5 +1,4 @@
 
-
 import { ExternalLink, Github, Calendar, Zap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -27,7 +26,7 @@ const Projects = () => {
       title: "Neurovision – Brain Tumor Identification",
       description: "Deep learning application for automated brain tumor detection using MRI data. Implemented and compared multiple CNN architectures including Xception and DenseNet201 for accurate medical image classification.",
       technologies: ["CNNs", "Xception", "DenseNet201", "TensorFlow"],
-      period: "Oct 2024 – Dec 2024",
+      period: "Oct 2023 – Feb 2024",
       type: "AI/ML Project",
       highlights: ["Medical AI", "CNN Architecture", "Image Classification", "Healthcare Application"]
     },
