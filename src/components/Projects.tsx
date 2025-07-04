@@ -8,10 +8,10 @@ const Projects = () => {
     {
       title: "Facial Expression Recognition using Transformer Models",
       description: "Built an advanced facial expression recognition system that classifies 7 human emotions — Angry, Happy, Sad, Surprise, Fear, Disgust, and Neutral — from facial images. The system uses state-of-the-art Transformer architectures (Vision Transformer and Swin Transformer) and a custom CNN. Trained and tested on FER-2013 and CK+ datasets (35k+ images), with performance optimized through data augmentation.",
-      technologies: ["Python", "PyTorch", "Kaggle API", "Vision Transformer (ViT)", "Swin Transformer", "Custom CNN", "FER-2013", "CK+ Dataset"],
+      technologies: ["Python", "PyTorch", "Kaggle API", "Vision Transformer (ViT)", "Swin Transformer", "Custom CNN"],
       period: "Feb 2025 – May 2025",
       type: "AI/ML Project",
-      highlights: ["Transformer-based emotion classification", "Compared ViT, Swin Transformer, and Custom CNN", "Used FER-2013 & CK+ benchmark datasets", "Applied rotation, flipping, and zoom for augmentation", "Analyzed model accuracy and emotion-wise F1 scores"]
+      highlights: ["Compared ViT, Swin Transformer, and Custom CNN", "Used FER-2013 & CK+ benchmark datasets"]
     },
     {
       title: "Evaluating Fine-Tuning Techniques on FLAN-T5 for QA",
