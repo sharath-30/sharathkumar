@@ -1,4 +1,3 @@
-
 import { ExternalLink, Github, Calendar, Zap } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -18,7 +17,7 @@ const Projects = () => {
       title: "Evaluating Fine-Tuning Techniques on FLAN-T5 for QA",
       description: "Comprehensive research project comparing zero-shot, few-shot, and Parameter Efficient Fine-Tuning (PEFT) techniques on FLAN-T5 model for question-answering tasks. Evaluated performance using Exact Match and F1 scores.",
       technologies: ["FLAN-T5", "PEFT", "Hugging Face", "Python", "PyTorch"],
-      period: "Oct 2023 – Feb 2024",
+      period: "Oct 2024 – Dec 2024",
       type: "Research Project",
       highlights: ["Zero-shot Learning", "Few-shot Learning", "PEFT Implementation", "Performance Evaluation"]
     },
@@ -26,7 +25,7 @@ const Projects = () => {
       title: "Neurovision – Brain Tumor Identification",
       description: "Deep learning application for automated brain tumor detection using MRI data. Implemented and compared multiple CNN architectures including Xception and DenseNet201 for accurate medical image classification.",
       technologies: ["CNNs", "Xception", "DenseNet201", "TensorFlow"],
-      period: "Oct 2023 – Feb 2024",
+      period: "Jan 2024 – Apr 2024",
       type: "AI/ML Project",
       highlights: ["Medical AI", "CNN Architecture", "Image Classification", "Healthcare Application"]
     },
@@ -34,7 +33,7 @@ const Projects = () => {
       title: "Predicting Sports Match Outcomes",
       description: "Machine learning system that predicts sports match results using historical data and statistical analysis. Features an intuitive web interface for users to input match parameters and view predictions.",
       technologies: ["Machine Learning", "Python", "Flask", "Scikit-learn", "Web UI"],
-      period: "Jun 2023 – Sep 2023",
+      period: "Jul 2023 – Sep 2023",
       type: "Full-Stack Project",
       highlights: ["Predictive Analytics", "Web Interface", "Data Analysis", "Sports Analytics"]
     },
@@ -42,7 +41,7 @@ const Projects = () => {
       title: "AI Virtual Web Assistant",
       description: "Intelligent voice-activated web assistant with natural language processing capabilities. Features voice interaction, speech synthesis, and can perform various web-based tasks through voice commands.",
       technologies: ["NLP", "Speech Recognition", "Python", "Web APIs", "Voice Synthesis"],
-      period: "Jun 2022 – Sep 2022",
+      period: "Jun 2023 – Jul 2023",
       type: "AI Assistant",
       highlights: ["Voice Recognition", "Natural Language Processing", "Speech Synthesis", "Web Integration"]
     }
