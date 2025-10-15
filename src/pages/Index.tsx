@@ -7,6 +7,7 @@ import { Badge } from '@/components/ui/badge';
 import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
+import Experience from '@/components/Experience';
 import Skills from '@/components/Skills';
 import Certifications from '@/components/Certifications';
 import Projects from '@/components/Projects';
@@ -18,7 +19,7 @@ const Index = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'about', 'skills', 'certifications', 'projects', 'publications', 'contact'];
+      const sections = ['home', 'about', 'experience', 'skills', 'certifications', 'projects', 'publications', 'contact'];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -44,6 +45,7 @@ const Index = () => {
       <main>
         <Hero />
         <About />
+        <Experience />
         <Skills />
         <Certifications />
         <Projects />
