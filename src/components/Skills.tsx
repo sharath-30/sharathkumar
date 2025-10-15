@@ -1,65 +1,85 @@
 
-import { Brain, Code, Database, Zap } from 'lucide-react';
+import { Brain, Code, Database, Zap, Server, Cloud, Activity } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 
 const Skills = () => {
   const skillCategories = [
     {
-      title: "AI & Machine Learning",
-      icon: Brain,
-      color: "text-purple-400",
-      bgColor: "bg-purple-500/10",
-      skills: [
-        "Large Language Models (LLMs)",
-        "PEFT (Parameter Efficient Fine-Tuning)",
-        "Prompt Engineering",
-        "Evaluation Metrics (EM & F1)",
-        "Llama2",
-        "FLAN-T5",
-        "Hugging Face Transformers"
-      ]
-    },
-    {
-      title: "Programming Languages",
-      icon: Code,
+      title: "Backend Development",
+      icon: Server,
       color: "text-blue-400",
       bgColor: "bg-blue-500/10",
       skills: [
-        "Python",
         "Java",
-        "C",
-        "R",
-        "JavaScript",
-        "SQL"
+        "Spring Boot",
+        "Flask",
+        "RESTful APIs",
+        "gRPC",
+        "Redis",
+        "PostgreSQL",
+        "Apache Kafka"
       ]
     },
     {
-      title: "Web Development",
-      icon: Zap,
+      title: "Frontend Development",
+      icon: Code,
       color: "text-green-400",
       bgColor: "bg-green-500/10",
       skills: [
-        "Full Stack Development",
-        "Flask",
-        "Servlets & JSP",
-        "HTML/CSS",
         "React",
-        "REST APIs"
+        "Redux Toolkit",
+        "Axios",
+        "HTML5",
+        "CSS3",
+        "JavaScript"
       ]
     },
     {
-      title: "Databases & Tools",
-      icon: Database,
+      title: "Cloud & DevOps",
+      icon: Cloud,
+      color: "text-purple-400",
+      bgColor: "bg-purple-500/10",
+      skills: [
+        "AWS (EKS, RDS, S3)",
+        "Docker",
+        "Kubernetes",
+        "Helm",
+        "Terraform",
+        "Jenkins",
+        "CI/CD",
+        "SonarQube",
+        "Fortify"
+      ]
+    },
+    {
+      title: "Monitoring & Performance",
+      icon: Activity,
       color: "text-amber-400",
       bgColor: "bg-amber-500/10",
       skills: [
-        "SQL",
-        "Oracle",
-        "Git/GitHub",
-        "Docker",
-        "AWS",
-        "Google Cloud"
+        "Prometheus",
+        "Grafana",
+        "Logging & Metrics Optimization",
+        "Application Performance Tuning"
+      ]
+    },
+    {
+      title: "Data & Machine Learning",
+      icon: Brain,
+      color: "text-rose-400",
+      bgColor: "bg-rose-500/10",
+      skills: [
+        "Python",
+        "Pandas",
+        "NumPy",
+        "Scikit-learn",
+        "PyTorch",
+        "TensorFlow",
+        "OpenCV",
+        "Matplotlib",
+        "Seaborn",
+        "Vision Transformer"
       ]
     }
   ];
@@ -78,7 +98,7 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <Card key={index} className="bg-slate-800 border-slate-700 hover:border-slate-600 transition-colors duration-300">
               <CardHeader>
