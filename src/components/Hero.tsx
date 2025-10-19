@@ -48,7 +48,7 @@ const Hero = () => {
               AI Graduate
             </span>
             <span className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-full text-sm">
-              Generative AI Enthusiast
+              Software Engineer
             </span>
             <span className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-full text-sm">
               Full-Stack Developer
