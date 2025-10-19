@@ -53,18 +53,6 @@ const Skills = () => {
       ]
     },
     {
-      title: "Monitoring & Performance",
-      icon: Activity,
-      color: "text-amber-400",
-      bgColor: "bg-amber-500/10",
-      skills: [
-        "Prometheus",
-        "Grafana",
-        "Logging & Metrics Optimization",
-        "Application Performance Tuning"
-      ]
-    },
-    {
       title: "Data & Machine Learning",
       icon: Brain,
       color: "text-rose-400",
