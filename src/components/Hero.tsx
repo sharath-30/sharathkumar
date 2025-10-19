@@ -56,9 +56,7 @@ const Hero = () => {
           </div>
 
           <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            I'm an Artificial Intelligence graduate with hands-on experience in designing, developing, and deploying web applications, 
-            particularly those involving large language models. I specialize in end-to-end project execution and problem-solving, 
-            with a strong foundation in Python and Flask.
+            I'm a passionate and detail-oriented Software Engineer who loves turning ideas into reliable, high-performing applications. At ICICI Bank, I built scalable Spring Boot microservices, integrated real-time Kafka pipelines, and developed intuitive React dashboards that enhanced system efficiency. With hands-on experience across Java, Python, AWS, Docker, Kubernetes, and DevOps tools, I enjoy solving problems end-to-end — from backend logic to cloud deployment. I'm driven by curiosity, innovation, and a desire to create technology that makes a real impact.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
