@@ -6,35 +6,29 @@ import { Badge } from '@/components/ui/badge';
 const Certifications = () => {
   const certifications = [
     {
-      title: "Generative AI with LLM",
-      issuer: "Amazon Web Services",
-      year: "2025",
-      description: "Advanced training in generative AI techniques and large language model implementation",
+      title: "Oracle Certified Professional: Java SE 11 Developer (OCPJP)",
+      issuer: "Oracle",
+      year: "2024",
+      description: "Professional certification demonstrating expertise in Java SE 11 development",
       badge: "Latest"
     },
     {
-      title: "Google AI Essentials",
-      issuer: "Coursera",
+      title: "AWS Certified – Generative AI with Large Language Models",
+      issuer: "Amazon Web Services",
       year: "2024",
-      description: "Comprehensive foundation in AI concepts and practical applications"
+      description: "Advanced training in generative AI techniques and large language model implementation"
     },
     {
-      title: "Google Cloud Program",
+      title: "AWS Certified Developer – Associate (DVA-C02)",
+      issuer: "Amazon Web Services",
+      year: "2023",
+      description: "Certification in designing, developing, and maintaining AWS-based applications"
+    },
+    {
+      title: "Google Certified – Cloud Program",
       issuer: "Google",
       year: "2023",
-      description: "Cloud computing and AI services on Google Cloud Platform"
-    },
-    {
-      title: "Programming Essentials in Python",
-      issuer: "Cisco Networking Academy",
-      year: "2023",
-      description: "Advanced Python programming concepts and best practices"
-    },
-    {
-      title: "Artificial Intelligence, Machine Learning and Deep Learning",
-      issuer: "NIT Warangal",
-      year: "2022",
-      description: "Comprehensive training in AI/ML fundamentals and advanced techniques"
+      description: "Cloud computing and services on Google Cloud Platform"
     }
   ];
 
