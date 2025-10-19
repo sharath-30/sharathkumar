@@ -48,10 +48,10 @@ const Hero = () => {
               AI Engineer
             </span>
             <span className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-full text-sm">
-              Software Engineer
+              Full-Stack Developer
             </span>
             <span className="px-4 py-2 bg-slate-800 border border-slate-700 rounded-full text-sm">
-              Full-Stack Developer
+              Software Engineer
             </span>
           </div>
 
