@@ -1,10 +1,7 @@
-
 import { GraduationCap, MapPin } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-
 const About = () => {
-  return (
-    <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
+  return <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">
@@ -23,7 +20,7 @@ const About = () => {
               <CardTitle className="text-2xl text-white mb-4">My Journey</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-300 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed text-base font-thin text-justify">
                 As a passionate Software Engineer with a strong foundation in AI and full-stack development, I bridge the worlds of intelligent systems and scalable software. My journey spans building enterprise-level microservices, cloud-native applications, and deep learning models that solve real-world problems. From accelerating digital loan processing at ICICI Bank to developing AI solutions in facial expression recognition and medical imaging, I'm driven by curiosity, innovation, and impact. My goal is to craft technology that is efficient, intelligent, and meaningful.
               </p>
             </CardContent>
@@ -69,8 +66,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
