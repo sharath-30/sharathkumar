@@ -6,6 +6,14 @@ import { Button } from '@/components/ui/button';
 const Projects = () => {
   const projects = [
     {
+      title: "Digital Loan Origination & Approval Platform",
+      description: "Built a full-stack digital loan origination system enabling customers to apply online, upload documents, and track application status. The platform automated risk scoring, document verification, and decision routing using microservices. Achieved major efficiency gains by cutting turnaround time from weeks to days through end-to-end digitization, containerized deployments, and scalable cloud infrastructure.",
+      technologies: ["Java 17", "Spring Boot", "Python (Flask/FastAPI)", "React", "Redux Toolkit", "PostgreSQL", "Redis", "Kafka", "Docker", "Kubernetes", "AWS", "Terraform", "SonarQube", "Fortify", "Prometheus", "Grafana"],
+      period: "Jan 2023 – Jul 2024",
+      type: "Full-Stack Project",
+      highlights: ["Spring Boot microservices architecture", "Python OCR & Risk Scoring integration", "React + Redux Toolkit frontend", "CI/CD with Jenkins & Helm", "AWS EKS deployment with Terraform IaC"]
+    },
+    {
       title: "Facial Expression Recognition using Transformer Models",
       description: "Built an advanced facial expression recognition system that classifies 7 human emotions — Angry, Happy, Sad, Surprise, Fear, Disgust, and Neutral — from facial images. The system uses state-of-the-art Transformer architectures (Vision Transformer and Swin Transformer) and a custom CNN. Trained and tested on FER-2013 and CK+ datasets (35k+ images), with performance optimized through data augmentation.",
       technologies: ["Python", "PyTorch", "Kaggle API", "Vision Transformer (ViT)", "Swin Transformer", "Custom CNN"],
