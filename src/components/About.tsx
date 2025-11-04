@@ -23,15 +23,8 @@ const About = () => {
               <CardTitle className="text-2xl text-white mb-4">My Journey</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-gray-300 leading-relaxed mb-6">
-                As an AI graduate specializing in Large Language Models and generative AI, I bring a unique blend of 
-                theoretical knowledge and practical experience. My journey in technology has been driven by curiosity 
-                and a passion for solving complex problems through innovative solutions.
-              </p>
               <p className="text-gray-300 leading-relaxed">
-                I thrive in collaborative environments and enjoy working on projects that push the boundaries of what's 
-                possible with AI and web technologies. My goal is to contribute to meaningful projects that make a 
-                positive impact on society.
+                As a passionate Software Engineer with a strong foundation in AI and full-stack development, I bridge the worlds of intelligent systems and scalable software. My journey spans building enterprise-level microservices, cloud-native applications, and deep learning models that solve real-world problems. From accelerating digital loan processing at ICICI Bank to developing AI solutions in facial expression recognition and medical imaging, I'm driven by curiosity, innovation, and impact. My goal is to craft technology that is efficient, intelligent, and meaningful.
               </p>
             </CardContent>
           </Card>
